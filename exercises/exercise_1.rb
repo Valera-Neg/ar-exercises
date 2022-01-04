@@ -9,5 +9,8 @@ richmond = Store.create( name: "Richmond", annual_revenue: 1260000, mens_apparel
 
 gastown = Store.create( name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
+number_of_stors = Store.count
+puts number_of_stors
+
 
 # Your code goes below here ...
